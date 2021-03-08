@@ -39,6 +39,12 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.sebessentials": {
+      "version": "file:SebEssentials",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.test-framework": {
       "version": "1.1.22",
       "depth": 0,
