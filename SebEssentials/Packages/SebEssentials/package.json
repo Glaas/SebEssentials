@@ -1,0 +1,19 @@
+{
+  "name": "com.unity.sebessentials",
+  "version": "0.0.1",
+  "displayName": "Seb Essentials",
+  "description": "A collection of ready-to-use tools for Unity",
+  "unity": "2020.2",
+  "unityRelease": "7f1",
+  "keywords": [
+    "keyword1",
+    "keyword2",
+    "keyword3"
+  ],
+  "author": {
+    "name": "Sebastien Glaas Decuyper",
+    "email": "s.decuyper314@gmail.com",
+    "url": "sebdec.net"
+  },
+  "type": "library"
+}
