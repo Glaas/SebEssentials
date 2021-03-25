@@ -15,5 +15,8 @@
     "email": "s.decuyper314@gmail.com",
     "url": "sebdec.net"
   },
-  "type": "library"
+  "type": "template",
+  "dependencies": {
+    "com.unity.textmeshpro": ""
+  }
 }
