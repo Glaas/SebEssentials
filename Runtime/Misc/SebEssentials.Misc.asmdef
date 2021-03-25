@@ -1,0 +1,19 @@
+{
+    "name": "SebEssentials.Misc",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4cef7a1780862574298f4cf41b96d85d",
+        "GUID:27619889b8ba8c24980f49ee34dbb44a",
+        "GUID:0acc523941302664db1f4e527237feb3",
+        "GUID:cfb39e653dffe2c40a2eeac1881474e6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
