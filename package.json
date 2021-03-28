@@ -1,6 +1,6 @@
 {
   "name": "com.unity.sebessentials",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "displayName": "Seb Essentials",
   "description": "A collection of ready-to-use tools for Unity",
   "unity": "2020.2",
@@ -15,8 +15,9 @@
     "email": "s.decuyper314@gmail.com",
     "url": "sebdec.net"
   },
-  "type": "library",
+  "type": "tests",
   "dependencies": {
     "com.unity.textmeshpro": ""
-  }
+  },
+  "hideInEditor": false
 }
