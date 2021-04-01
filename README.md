@@ -1,38 +1,24 @@
-﻿---
-__Advertisement :)__
+# Seb Essentials
 
-- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
-  resize in browser.
-- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
-  i18n with plurals support and easy syntax.
+**Seb Essentials** is a collection of tools for [Unity](https://unity.com), created to avoid the hassle to re-create the same scripts over and over again. New features and tools will be added as I create more things that I want to re-use in the future.
+Tools provided include :
+- FPS Player Controller
+- 2D Player Controller
+- Item Animator (set-up bobbing and rotation)
+- GuiStyle presets
+- Mathematical curves library
+- Math functions and extensions
 
-You will like those projects!
+You can access the [documentation](https://github.com/Glaas/SebEssentials/wiki) in the [wiki](https://github.com/Glaas/SebEssentials/wiki) of this repository.
+Contribution is strongly encouraged ! Please open issues and pull requests if you spot bugs or have some idea to improve or optimize.
 
----
+## CREDITS
+Some of the code in this tool are 
+[Sebastian Lague](https://www.youtube.com/channel/UCmtyQOKKmrMVaKuRXz02jbQ)
+[Erik Roystan Ross](https://www.roystan.net)
 
-# h1 Heading 8-)
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
-
-
-## Horizontal Rules
-
-___
-
----
-
-***
+## SPECIAL THANKS
 
 
-## Typographic replacements
-
-Enable typographer option to see result.
-
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
-
-test.. test... test..... test?..... test!....
-
-!!!!!! ???? ,,  -- ---
+*Under the MIT License.*
+***Seb Essentials** is completely free and always will be.*
