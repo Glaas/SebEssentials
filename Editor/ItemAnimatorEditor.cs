@@ -20,19 +20,10 @@ public class ItemAnimatorEditor : Editor
     {
         ItemAnimator t = target as ItemAnimator;
 
-        base.OnInspectorGUI();
-        EditorGUILayout.Space();
-        EditorGUILayout.Space();
-        EditorGUILayout.Space();
-        EditorGUILayout.Space();
-        EditorGUILayout.Space();
-        EditorGUILayout.Space();
-        EditorGUILayout.Space();
-        isFloatingToggle.target =
-            EditorGUILayout.ToggleLeft(
-                new GUIContent("Floating",
-                    "Set to true if you want your object to bob up and down, and to make the parameters available."),
-                isFloatingToggle.target, GuiStylesBank.boldStyle);
+        isFloatingToggle.target = EditorGUILayout.ToggleLeft(
+            new GUIContent("Floating",
+                "Set to true if you want your object to bob up and down, and to make the parameters available."),
+            isFloatingToggle.target, GuiStylesBank.boldStyle);
 
         if (EditorGUILayout.BeginFadeGroup(isFloatingToggle.faded))
         {
