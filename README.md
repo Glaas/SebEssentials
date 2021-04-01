@@ -21,4 +21,5 @@ Some of the code in this tool are
 
 
 *Under the MIT License.*
+
 ***Seb Essentials** is completely free and always will be.*
