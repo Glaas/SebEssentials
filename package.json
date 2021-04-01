@@ -2,7 +2,7 @@
   "name": "com.unity.sebessentials",
   "version": "0.0.6",
   "displayName": "Seb Essentials",
-  "description": "A collection of ready-to-use tools for Unity",
+  "description": "A collection of ready-to-use tools for Unity\n\ndocs : sebdec.net",
   "unity": "2020.2",
   "unityRelease": "7f1",
   "keywords": [
@@ -11,7 +11,7 @@
     "keyword3"
   ],
   "author": {
-    "name": "Sebastien Glaas Decuyper",
+    "name": "Sebastien \"Glaas\" Decuyper",
     "email": "s.decuyper314@gmail.com",
     "url": "sebdec.net"
   },
@@ -19,5 +19,17 @@
   "dependencies": {
     "com.unity.textmeshpro": ""
   },
+  "samples": [
+    {
+      "displayName": "FPS Controller example scene",
+      "description": "Showcase scene with the FPS Controller prefab, to tweak parameters such as speed or acceptable angles to your liking.",
+      "path": "Samples/FPSController"
+    },
+    {
+      "displayName": "2D Character controller example scene",
+      "description": "Example scene with the 2d character controller all set up, allowing you to have a feel for the desired speed and behavior.",
+      "path": "Samples/sample-folder-2"
+    }
+  ],
   "hideInEditor": false
 }
