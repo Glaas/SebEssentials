@@ -17,7 +17,7 @@ public class FPSControllerEditor : Editor
 
 
         EditorGUILayout.LabelField("Jump", GuiStylesBank.boldStyle);
-        fps.jumpSpeed = EditorGUILayout.Slider("Jump speed", fps.jumpSpeed, .1f, 30);
+        fps.jumpSpeed = EditorGUILayout.Slider("Jump force", fps.jumpSpeed, .1f, 30);
         fps.gravity = EditorGUILayout.Slider("Gravity", fps.gravity, .1f, 30);
         fps.allowAirControl = EditorGUILayout.Toggle("AllowAirControl", fps.allowAirControl);
         EditorGUILayout.Separator();
@@ -31,7 +31,7 @@ public class FPSControllerEditor : Editor
 
 
         EditorGUILayout.LabelField("Control keys", GuiStylesBank.boldStyle);
-        fps.runKey = (KeyCode) EditorGUILayout.EnumPopup("Shift", fps.runKey);
-        fps.jumpKey = (KeyCode) EditorGUILayout.EnumPopup("Jump", fps.jumpKey);
+        fps.runKey = (KeyCode) EditorGUILayout.EnumPopup("Running", fps.runKey);
+        fps.jumpKey = (KeyCode) EditorGUILayout.EnumPopup("Jumping", fps.jumpKey);
     }
 }
