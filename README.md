@@ -2,7 +2,7 @@
 
 **Seb Essentials** is a collection of tools for [Unity](https://unity.com), created to avoid the hassle to re-create the same scripts over and over again. New features and tools will be added as I create more things that I want to re-use in the future.
 Tools provided include :
-- FPS Player Controller
+- [FPS Player Controller](https://github.com/Glaas/SebEssentials/wiki/FPS-Player-Controller)
 - 2D Player Controller
 - Item Animator (set-up bobbing and rotation)
 - GuiStyle presets
