@@ -16,9 +16,9 @@ Contribution is strongly encouraged ! Please open issues and pull requests if yo
 
 ## CREDITS
 Some of this code is built upon code by :
-[Sebastian Lague](https://www.youtube.com/channel/UCmtyQOKKmrMVaKuRXz02jbQ)
-[Erik Roystan Ross](https://www.roystan.net)
-[Ciathyza](https://www.ciathyza.com)
+- [Sebastian Lague](https://www.youtube.com/channel/UCmtyQOKKmrMVaKuRXz02jbQ)
+- [Erik Roystan Ross](https://www.roystan.net)
+- [Ciathyza](https://www.ciathyza.com)
 ## SPECIAL THANKS
 
 
