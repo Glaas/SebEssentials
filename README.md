@@ -13,7 +13,7 @@ You can access the [documentation](https://github.com/Glaas/SebEssentials/wiki) 
 Contribution is strongly encouraged ! Please open issues and pull requests if you spot bugs or have some idea to improve or optimize.
 
 ## CREDITS
-Some of the code in this tool are 
+Some of this code is built upon code by :
 [Sebastian Lague](https://www.youtube.com/channel/UCmtyQOKKmrMVaKuRXz02jbQ)
 [Erik Roystan Ross](https://www.roystan.net)
 
