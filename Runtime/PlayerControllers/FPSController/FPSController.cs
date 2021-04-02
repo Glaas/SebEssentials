@@ -14,9 +14,7 @@ public class FPSController : MonoBehaviour
     public float gravity = 20.0f;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
-
-    public bool allowAirControl = true;
-
+    
     public KeyCode runKey = KeyCode.LeftShift;
     public KeyCode jumpKey = KeyCode.Space;
 

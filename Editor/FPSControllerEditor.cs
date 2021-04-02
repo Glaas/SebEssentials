@@ -19,7 +19,6 @@ public class FPSControllerEditor : Editor
         EditorGUILayout.LabelField("Jump", GuiStylesBank.boldStyle);
         fps.jumpSpeed = EditorGUILayout.Slider("Jump force", fps.jumpSpeed, .1f, 30);
         fps.gravity = EditorGUILayout.Slider("Gravity", fps.gravity, .1f, 30);
-        fps.allowAirControl = EditorGUILayout.Toggle("AllowAirControl", fps.allowAirControl);
         EditorGUILayout.Separator();
 
         EditorGUILayout.LabelField("Camera", GuiStylesBank.boldStyle);
