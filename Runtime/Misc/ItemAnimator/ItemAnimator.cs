@@ -12,6 +12,7 @@ public class ItemAnimator : MonoBehaviour
     }
 
     //Public, to show in inspector
+    
     public bool isFloating, isRotating;
     public float intensity = 1, speed = 1;
     public float rotateSpeed = 2;
