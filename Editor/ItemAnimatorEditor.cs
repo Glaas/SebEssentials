@@ -8,29 +8,21 @@ namespace SebEssentials
     [CustomEditor(typeof(ItemAnimator))]
     public class ItemAnimatorEditor : Editor
     {
-        public AnimBool isFloatingToggle;
-        public AnimBool isRotatingToggle;
         private ItemAnimator.RotationDirection rot;
-
-        private void OnEnable()
-        {
-            isFloatingToggle = new AnimBool();
-            isRotatingToggle = new AnimBool();
-        }
 
         public override void OnInspectorGUI()
         {
             ItemAnimator t = target as ItemAnimator;
 
-            isFloatingToggle.target = EditorGUILayout.ToggleLeft(
+
+            t.isFloating = EditorGUILayout.ToggleLeft(
                 new GUIContent("Floating",
                     "Set to true if you want your object to bob up and down, and to make the parameters available."),
-                isFloatingToggle.target, GuiStylesBank.boldStyle);
+                t.isFloating, GuiStylesBank.boldStyle);
 
-            if (EditorGUILayout.BeginFadeGroup(isFloatingToggle.faded))
+            if (t.isFloating)
             {
                 EditorGUILayout.BeginVertical();
-                t.isFloating = true;
                 t.intensity =
                     EditorGUILayout.Slider(
                         new GUIContent("Amplitude",
@@ -42,21 +34,18 @@ namespace SebEssentials
                     t.speed, 0, 30);
                 EditorGUILayout.EndVertical();
             }
-            else
-            {
-                t.isFloating = false;
-            }
 
-            EditorGUILayout.EndFadeGroup();
 
-            isRotatingToggle.target =
+            t.isRotating =
                 EditorGUILayout.ToggleLeft(
                     new GUIContent("Rotating",
                         "Set it to true if you want your object to rotate, and have the rest of the parameters available."),
-                    isRotatingToggle.target, GuiStylesBank.boldStyle);
-            if (EditorGUILayout.BeginFadeGroup(isRotatingToggle.faded))
+                    t.isRotating, GuiStylesBank.boldStyle);
+
+            if (t.isRotating)
             {
-                t.isRotating = true;
+                EditorGUILayout.BeginVertical();
+
                 t.rotationDirection =
                     (ItemAnimator.RotationDirection) EditorGUILayout.EnumPopup(
                         new GUIContent("Rotation direction",
@@ -66,13 +55,9 @@ namespace SebEssentials
                     EditorGUILayout.Slider(
                         new GUIContent("Rotating speed", "I think that you get what this one is for :)"),
                         t.rotateSpeed, .1f, 30f);
-            }
-            else
-            {
-                t.isRotating = false;
-            }
 
-            EditorGUILayout.EndFadeGroup();
+                EditorGUILayout.EndVertical();
+            }
         }
     }
 }
