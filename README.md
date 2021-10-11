@@ -1,3 +1,4 @@
+#WORK IN PROGRESS
 # Seb Essentials
 
 **Seb Essentials** is a collection of tools for [Unity](https://unity.com), created to avoid the hassle to re-create the same scripts over and over again. New features and tools will be added as I create more things that I want to re-use in the future.
@@ -24,4 +25,4 @@ Some of this code is built upon code by :
 
 *Under the MIT License.*
 
-***Seb Essentials** is completely free and always will be.*
+***Seb Essentials** is completely free and will always be.*
