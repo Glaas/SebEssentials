@@ -1,7 +1,7 @@
 #WORK IN PROGRESS
 # Seb Essentials
 
-*note; some of the tools here have have now their own repo for easier maintaining and flexibility. For example, the curves library has been moved to [Easings](https://github.com/Glaas/Easings)
+*note; some of the tools here have have now their own repo for easier maintaining and flexibility. For example, the curves library has been moved to [Easings](https://github.com/Glaas/Easings)*
 
 **Seb Essentials** is a collection of tools for [Unity](https://unity.com), created to avoid the hassle to re-create the same scripts over and over again. New features and tools will be added as I create more things that I want to re-use in the future.
 Tools provided include :
