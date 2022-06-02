@@ -1,6 +1,8 @@
 #WORK IN PROGRESS
 # Seb Essentials
 
+*note; some of the tools here have have now their own repo for easier maintaining and flexibility. For example, the curves library has been moved to [Easings](https://github.com/Glaas/Easings)
+
 **Seb Essentials** is a collection of tools for [Unity](https://unity.com), created to avoid the hassle to re-create the same scripts over and over again. New features and tools will be added as I create more things that I want to re-use in the future.
 Tools provided include :
 - [FPS Player Controller](https://github.com/Glaas/SebEssentials/wiki/FPS-Player-Controller)
@@ -10,7 +12,7 @@ Tools provided include :
 - Mathematical curves library
 - Math functions and extensions
 - Some standard materials
-- A custom checkerboard shader (HLSL) using included textures for prototyping
+- A custom checkerboard shader (HLSL, built-in RP) using included textures for prototyping
 
 You can access the [documentation](https://github.com/Glaas/SebEssentials/wiki) in the [wiki](https://github.com/Glaas/SebEssentials/wiki) of this repository.
 Contribution is strongly encouraged ! Please open issues and pull requests if you spot bugs or have some idea to improve or optimize.
